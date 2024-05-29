@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+         .banner {
+          position: relative;
+          height: 350px;
+      }
+
+      .banner img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+      }
+
+      .banner img.active {
+          opacity: 1;
+      }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.gif" style="height: 100px; width: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                     </li>
+                    <li class="nav-item">
+                        <form class="d-flex" id="search-form">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-term">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container my-5">
+    <div class="banner">
+        <img src="banner/banner.webp" class="active" alt="Banner 1">
+        <img src="banner/banner2.webp" alt="Banner 2">
+        <img src="banner/cart.webp" alt="Banner 3">
+    </div>
+    <br></br>
+    <h1><i class="fas fa-rocket"></i> Sứ mệnh của Chúng tôi</h1>
+    <p>Công ty chúng tôi chuyên cung cấp các mẫu điện thoại mới nhất hiện tại. Giá rẻ nhất thị trường.</p>
+    <h2><i class="fas fa-users"></i> Về đội ngũ của chúng tôi</h2>
+    <p>
+        Công ty chúng tôi có những đội ngũ chuyên nghiệp để phục vụ khách hàng. Đội ngũ hotline hỗ trợ nhiệt tình, nhân viên nhanh nhẹn.
+    </p>
+    <h2><i class="fas fa-medal"></i> Giá Trị của Chúng tôi</h2>
+    <ul>
+        <li><i class="fas fa-check"></i> Liêm chính: Chúng tôi cam kết bán hàng chính hãng</li>
+        <li><i class="fas fa-sync"></i> Đổi mới: Chúng toôi liên tục cung cấp những mặt hàng mới</li>
+        <li><i class="fas fa-star"></i> Xuất sắc: Chúng tôi có những sự hoàn hảo khiến khách hàng luôn luôn tin tưởng</li>
+        <li><i class="fas fa-handshake"></i> Hợp tác: Chúng tôi hợp tác với nhiều mặc hàng, nhãn hàng khác nhau</li>
+    </ul>
+
+    <h2><i class="fas fa-bullseye"></i> Cam kết của chúng tôi đối với bạn</h2>
+    <p>
+        Tại [Code Toàn Bug] chúng tôi cam kết đem lại những trải nghiệm tốt nhất đối với khách hàng.
+    </p>
+</main>
+<footer class="bg-light py-4 text-center">
+    <div class="container">
+        <p>&copy; 2024 [Code Toàn Bug]</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="script/banner.js"></script>
+</body>
+</html>

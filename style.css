@@ -1,0 +1,22 @@
+block-categories .categories-content .categories-content-wrapper {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    position: relative;
+}
+.is-flex {
+    display: flex !important;
+}
+
+.nav-link {
+    text-decoration: none; /* Loại bỏ gạch chân từ tất cả các liên kết trong thanh điều hướng */
+}
+
+.dropdown-menu a {
+    text-decoration: none; /* Loại bỏ gạch chân từ các liên kết trong menu dropdown */
+}
+
+.card-link {
+    text-decoration: none; /* Loại bỏ gạch chân từ các liên kết trong thẻ card */
+
+}
